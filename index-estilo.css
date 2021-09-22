@@ -39,6 +39,10 @@ body{
     font-family: var(--font-padrão);
 }
 
+a.externo::after{
+    content: '\1F517';
+}
+
 header{
     background-image: linear-gradient(to bottom, var(--cor0), var(--cor4));
     min-height: 150px;
@@ -135,6 +139,20 @@ main p > q{
     font-family: var(--font-destaque);
     font-size: 2em;
 }
+
+main a{
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--cor5);
+    background-color: var(--cor1);
+    padding: 2px 6px;
+    border-radius: 4px;
+}
+
+main a:hover{
+    text-decoration: underline;
+    color: var(--cor3);}
+
 p.citação{
     background-color: var(--cor0);
     color: var(--cor5);
