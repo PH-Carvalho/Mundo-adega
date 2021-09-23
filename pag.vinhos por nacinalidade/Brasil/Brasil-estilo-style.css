@@ -1,0 +1,92 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Birthstone&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Stick+No+Bills:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@400;700&display=swap');
+
+:root{
+    --cor0:#7850A3;
+    --cor1:#515696;
+    --cor2:#6755AD;
+    --cor3:#273A73;
+    
+    --cor4: #FDDF00;
+    --cor5:#05A64B;
+    
+
+    --font-padrão: Arial,Verdana,Helvetica,sans-serif;
+    --font-destaque:'Birthstone',cursive;
+    --font-personalisada:  'Cabin Sketch', cursive;
+    --font-titulos:  'Stick No Bills', sans-serif;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color:var(--cor0);
+    font-family: var(--font-padrão);
+}
+
+a.externo::after{
+    content: '\1F517';
+}
+
+header{
+    background-image: linear-gradient(to bottom, var(--cor4),var(--cor5));
+    min-height: 150px;
+    text-align: center;
+    padding-top: 40px;
+}
+header>h1{
+    color: white;
+    font-family: var(--font-personalisada);
+    margin-bottom: 15px;
+    text-shadow: 6px 6px 2px rgba(0, 0, 0, 0.349);
+    font-size: 4em;
+    font-weight: bold;
+    
+}
+header h2{
+    font-family: var(--font-personalisada);
+    font-size: 2.5em;
+    color: var(--cor4);
+}
+header>p{
+    font-family: var(--font-destaque);
+    color: white;
+    margin-bottom: 20px;
+    font-size: 2em;
+    max-width: 500px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin: auto;
+    margin-bottom: 30px8u;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.349);
+}
+
+nav{
+    background-color: var(--cor2);
+    padding: 10px;
+    box-shadow: 0px 8px 6px rgba(59, 57, 57, 0.37);
+    text-align: center;
+
+}
+
+nav > a {
+    color: var(--cor5);
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: 0.3s;
+   
+
+}
+
+nav > a:hover{
+    background-color: var(--cor5);
+    color: var(--cor2);
+
+}
