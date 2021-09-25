@@ -12,9 +12,9 @@
     --cor4: #5081A3;
     --cor5:#CED7F2;
     /* palheta de cores do site-pais */
-    --cor-bandeira1:#273A73;
-    --cor-bandeira2: #FDDF00;
-    --cor-bandeira3:#05A64B;
+    --cor-bandeira1:#D91E41;
+    --cor-bandeira2:#393C73;
+    --cor-bandeira3:#F2F2F2;
     
 
     --font-padrão: Arial,Verdana,Helvetica,sans-serif;
@@ -38,24 +38,24 @@ a.externo::after{
 }
 
 header{
-    background-image: linear-gradient(to right, var(--cor-bandeira2),var(--cor-bandeira3));
+    background-image: linear-gradient(to bottom, var(--cor-bandeira2),var(--cor-bandeira1));
     min-height: 150px;
     text-align: center;
     padding-top: 40px;
 }
 header>h1{
-    color: white;
+    color:var(--cor-bandeira3) ;
     font-family: var(--font-personalisada);
     margin-bottom: 15px;
     text-shadow: 6px 6px 2px rgba(0, 0, 0, 0.349);
     font-size: 4em;
-    font-weight: bold;
+    font-weight: bolder;
     
 }
 header h2{
     font-family: var(--font-personalisada);
     font-size: 2.5em;
-    color: var(--cor-bandeira2);
+    color: var(--cor-bandeira3);
 }
 header>p{
     font-family: var(--font-destaque);
