@@ -1,19 +1,10 @@
-@charset "UTF-8";
-@import url('https://fonts.googleapis.com/css2?family=Birthstone&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Stick+No+Bills:wght@300;400;500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@400;700&display=swap');
 
 :root{
-    /* palheta de cor padrão */
-    --cor0:#7850A3;
-    --cor1:#515696;
-    --cor2:#6755AD;
-    --cor3:#5572AD;
-    --cor4: #5081A3;
-    --cor5:#CED7F2;
+
     /* palheta de cores do site-pais */
-    --cor-bandeira1:#0035A9;
-    --cor-bandeira2:#FFFFFF;
+    --cor-bandeira1:#D91E41;
+    --cor-bandeira2:#393C73;
+    --cor-bandeira3:#F2F2F2;
     
 
     --font-padrão: Arial,Verdana,Helvetica,sans-serif;
@@ -21,40 +12,26 @@
     --font-personalisada:  'Cabin Sketch', cursive;
     --font-titulos:  'Stick No Bills', sans-serif;
 }
-
-*{
-    margin: 0px;
-    padding: 0px;
-}
-
-body{
-    background-color:var(--cor0);
-    font-family: var(--font-padrão);
-}
-
-a.externo::after{
-    content: '\1F517';
-}
-
 header{
-    background-image: linear-gradient(to bottom, var(--cor-bandeira1),var(--cor-bandeira2));
+    background-image: linear-gradient(to bottom, var(--cor-bandeira2),var(--cor-bandeira1));
     min-height: 150px;
     text-align: center;
     padding-top: 40px;
 }
 header>h1{
-    color: white;
+    color:var(--cor-bandeira3) ;
     font-family: var(--font-personalisada);
     margin-bottom: 15px;
     text-shadow: 6px 6px 2px rgba(0, 0, 0, 0.349);
     font-size: 4em;
-    font-weight: bold;
+    font-weight: bolder;
     
 }
 header h2{
     font-family: var(--font-personalisada);
     font-size: 2.5em;
-    color: var(--cor-bandeira1);
+    color: var(--cor-bandeira3);
+    text-shadow:   6px 6px 2px rgba(0, 0, 0, 0.349);;
 }
 header>p{
     font-family: var(--font-destaque);

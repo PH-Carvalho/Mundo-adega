@@ -1,0 +1,41 @@
+
+:root{
+    /* palheta de cores do site-pais */
+    --cor-bandeira1:#83B7DE;
+    --cor-bandeira2: #FFFFFF;
+}
+
+header{
+    background-image: linear-gradient(to bottom, var(--cor-bandeira1),var(--cor-bandeira2));
+}
+
+header h2{
+    font-family: var(--font-personalisada);
+    font-size: 2.5em;
+    color: var(--cor-bandeira2);
+    text-shadow: 6px 6px 2px rgba(165, 96, 96, 0.349);  ;
+}
+nav{
+    background-color: var(--cor0);
+    padding: 10px;
+    box-shadow: 0px 8px 6px rgba(59, 57, 57, 0.37);
+    text-align: center;
+
+}
+
+nav > a {
+    color: var(--cor-bandeira2);
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: 0.3s;
+   
+
+}
+
+nav > a:hover{
+    background-color: var(--cor-bandeira1);
+    color: var(--cor-bandeira2);
+
+}
