@@ -1,0 +1,5 @@
+Referencia do icone. <div>Ícones feitos por <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/br/" title="Flaticon">www.flaticon.com</a></div>
+
+
+            <h1>Quem sou eu?</h1>
+            <p>Bem, sou um estudante de programação e também estou conheçendo mais sobre os vinhos para participar de um processo seletivo de uma adega. e aqui irei além de por em prática os meus conhecimento em TI irei compartilhar a minha experiência e conhecimento, além de disponibilizar os conteúdos no qual utilizei e me ajudou a aprimorar meus conhecimentos. sem mais delongas vamos para o nosso conteudo.</p>
